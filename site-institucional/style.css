@@ -1,0 +1,41 @@
+.header{
+    background-color: rgb(110, 190, 78);
+    border: rgb(0, 0, 0) 5px double;
+height: 100px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+}
+.header .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 25%; 
+    justify-content: space-between;
+}
+.header h1{
+    color: rgb(117, 24, 24);
+}
+.navbar li{
+    color:gold;
+    font-weight: lighter;
+}
+.navbar .active{
+    font-weight: bolder; 
+}
+.navbar li a{
+    text-decoration: none;
+    color: gold;
+}
