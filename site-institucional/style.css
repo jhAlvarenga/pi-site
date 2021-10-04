@@ -106,3 +106,38 @@ text-align: center;
     align-items: center;
     color: whitesmoke;
 }
+.banner .form_login{
+    background-color: whitesmoke;
+    height:350px ;
+    width: 30%;
+    display:flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .form_login div{
+    display: flex;
+    flex-direction: column;
+    
+} 
+.banner .form_login h2{
+    color:rgb(117, 24, 24);
+
+}
+.banner .form_login div span{
+    color: rgb(117, 24, 24);
+
+}
+.banner .form_login div input{
+    border: 2px rgb(117, 24, 24) solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner .form_login button{
+    background-color: rgb(117, 24, 24);
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
