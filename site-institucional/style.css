@@ -29,7 +29,7 @@ height: 100px;
     color: rgb(117, 24, 24);
 }
 .navbar li{
-    color:gold;
+    color:rgb(117, 24, 24);
     font-weight: lighter;
 }
 .navbar .active{
@@ -37,5 +37,72 @@ height: 100px;
 }
 .navbar li a{
     text-decoration: none;
-    color: gold;
+    color:rgb(117, 24, 24);
+}
+.banner{
+
+    height: 400px;
+    background-image:url(https://s2.best-wallpaper.net/wallpaper/2880x1800/1809/Coffee-beans-cup-coffee-books_2880x1800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.mensagem{
+    color: blanchedalmond;
+    font-size: 30px;
+  width: 18%;
+  margin-right: 200px;
+}
+.bol{
+    font:bolder;
+}.proposito{
+    height: 450px;
+background-color: whitesmoke;
+}
+.proposito .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div img{
+    height: 100px;
+    width: 100px;
+}
+.proposito .container .mvv{
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+    margin-top: 60px;
+}
+.proposito .container .mvv div{
+display: flex;
+width: 20vw;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.proposito .container h2{
+    color:rgb(117, 24, 24) ;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+.proposito .container h3{
+    color: rgb(117, 24, 24);
+    font-weight: bolder;
+    margin: 25px 0;
+}
+.footer{
+    background-color:rgb(110, 190, 78) ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
 }
